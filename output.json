@@ -1,0 +1,631 @@
+{
+  "meta": {
+    "holder": "V SRI HARSHA",
+    "period": "2025-12-24 to 2026-01-02",
+    "processing_time_seconds": 41.67,
+    "chunks_processed": 4,
+    "duplicates_removed": 0
+  },
+  "summary": {
+    "total_transactions": 64,
+    "total_credit": 74678.8,
+    "total_debit": 60628.5,
+    "net_flow": 14050.3,
+    "category_breakdown": {
+      "TRANSFER": {
+        "count": 38,
+        "total": 40283.3
+      },
+      "FOOD": {
+        "count": 4,
+        "total": 1074.0
+      },
+      "BANK_CHARGES": {
+        "count": 1,
+        "total": 65.0
+      },
+      "UNCATEGORIZED": {
+        "count": 8,
+        "total": 61909.0
+      },
+      "SHOPPING": {
+        "count": 3,
+        "total": 494.0
+      },
+      "GROCERIES": {
+        "count": 6,
+        "total": 581.0
+      },
+      "MEDICAL": {
+        "count": 1,
+        "total": 84.0
+      },
+      "EMI": {
+        "count": 2,
+        "total": 22817.0
+      },
+      "RENT": {
+        "count": 1,
+        "total": 8000.0
+      }
+    }
+  },
+  "transactions": [
+    {
+      "amount": 41.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116066903323/VAISHNAVI/YESB/**D8RYK@PTYS/UPI//HDF7DF41BC56D9B4EDBA43238AB0CE2D2D8/23/12/2025 16:07:37 Chq: 116066903323",
+      "direction": "DEBIT",
+      "merchant_name": "VAISHNAVI",
+      "transaction_date": "2025-12-23"
+    },
+    {
+      "amount": 600.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/535734366722/MR VELICH/NESF/**ARSHA@SLC/UPI//NEFA3B21D4BA75D4638B224FAC74329BF35/23/12/2025 18:34:54 Chq: 535734366722",
+      "direction": "CREDIT",
+      "merchant_name": "MR VELICH",
+      "transaction_date": "2025-12-23"
+    },
+    {
+      "amount": 84.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116107636188/VAISHNAVI/YESB/**D8RYK@PTYS/UPI//HDF93AB8E3F7D8F47D7B77549238D77E96A/24/12/2025 13:19:25 Chq: 116107636188",
+      "direction": "DEBIT",
+      "merchant_name": "VAISHNAVI",
+      "transaction_date": "2025-12-24"
+    },
+    {
+      "amount": 418.91,
+      "category": "FOOD",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116123498069/MC DONALDS/HDFC/**10643@HDFCBANK/GENERATI//PLUTUSDQR00000000000000001051894370/24/12/2025 18:12:36 Chq: 116123498069",
+      "direction": "DEBIT",
+      "merchant_name": "MC DONALDS",
+      "transaction_date": "2025-12-24"
+    },
+    {
+      "amount": 65.0,
+      "category": "BANK_CHARGES",
+      "confidence_score": 1.0,
+      "description": "SMS CHARGES ON ACTUAL BASIS Chq: 0",
+      "direction": "DEBIT",
+      "merchant_name": "UNKNOWN",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 1.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/535946371062/STUCRED/IDFB/**NDATE@IDFCBANK/STUCRED//IDFKOV0001220252CBCPFDMUXS3N4GNGEPD/25/12/2025 11:36:42 Chq: 535946371062",
+      "direction": "DEBIT",
+      "merchant_name": "STUCRED",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 2716.8,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/535946371078/STUCRED/IDFB/**AYOUT@IDFCBANK/STUCRED//IDFPDCSPUB9UBWI6LQWOKBVEDMDAQVJETRU/25/12/2025 11:36:45 Chq: 535946371078",
+      "direction": "CREDIT",
+      "merchant_name": "STUCRED",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 95.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116151979508/SHRAVANI/KARB/**62716@KBL/UPI//HDF1E1DA5F03D70486D8DAB38AEDA62F248/25/12/2025 11:43:42 Chq: 116151979508",
+      "direction": "DEBIT",
+      "merchant_name": "SHRAVANI",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 80.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 0.9,
+      "description": "UPI/DR/116157629150/ASNCUISI/YESB/**CM8L8@PTY/UPI//HDF7166338D64194077BFA62A0DE56F918E/25/12/2025 13:35:01 Chq: 116157629150",
+      "direction": "DEBIT",
+      "merchant_name": "ASN CUISI",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 207.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/535981694717/M S FUSIO/ICIC/**78369@ICICI/UPI//AXI299273960DD441CB8D136A46297F5535/25/12/2025 14:14:27 Chq: 535981694717",
+      "direction": "DEBIT",
+      "merchant_name": "M S FUSIO",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 124.0,
+      "category": "SHOPPING",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116162427657/MR DIY/HDFC/**15947@HDFCBANK/GENERATI//PLUTUSDQR00000000000000001055277618/25/12/2025 15:09:27 Chq: 116162427657",
+      "direction": "DEBIT",
+      "merchant_name": "MR DIY",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 24.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116162943298/GREEN CHE/YESB/**91231@YBL/UPI//HDFE3D7FC05B5A0437E8F9D8A44F990D5C4/25/12/2025 15:20:40 Chq: 116162943298",
+      "direction": "DEBIT",
+      "merchant_name": "GREEN CHE",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 40.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116163782533/HARIOM VA/YESB/**XTPW9@PTYS/UPI//HDF325A0F21AF524ACCBDAA8FDC116657B4/25/12/2025 15:38:41 Chq: 116163782533",
+      "direction": "DEBIT",
+      "merchant_name": "HARIOM VA",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 93.44,
+      "category": "FOOD",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116164583890/MC DONALDS/HDFC/**10643@HDFCBANK/GENERATI//PLUTUSDQR00000000000000001055534406/25/12/2025 15:56:15 Chq: 116164583890",
+      "direction": "DEBIT",
+      "merchant_name": "MC DONALDS",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 15.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116170337386/NARESH/YESB/**10193@YBL/UPI//HDF72BC8379E59441A69E3A8B8A9E17E379/25/12/2025 17:47:42 Chq: 116170337386",
+      "direction": "DEBIT",
+      "merchant_name": "NARESH",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 60.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116171835023/GROCERY VE/UTIB/**28823@OKBIZAXIS/UPI//HDF2EDA4922B2B8489FA0CEC8F5EF1A87B3/25/12/2025 18:10:09 Chq: 116171835023",
+      "direction": "DEBIT",
+      "merchant_name": "GROCERY VE",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 300.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/507179523689/KUMARI VA/SBIN/**22741@YBL/PAYMENT//YBL11A4257F227D48228A72D8A127F3F676/25/12/2025 20:37:55 Chq: 507179523689",
+      "direction": "CREDIT",
+      "merchant_name": "KUMARI VA",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 300.0,
+      "category": "SHOPPING",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/572529144141/SRIKAR VEL/PPIW/**78255@AMAZONPAY/UPI//AXI73337944800F4E0D837BF7613940E15F/25/12/2025 21:56:00 Chq: 572529144141",
+      "direction": "DEBIT",
+      "merchant_name": "AMAZONPAY",
+      "transaction_date": "2025-12-25"
+    },
+    {
+      "amount": 411.65,
+      "category": "FOOD",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116204048947/ZOMATO LI/UTIB/**.GPAY@OKPAYAXIS/UPI//HDFB231EB8E121A4E5EA8C72AB1BEA6D489/26/12/2025 13:17:07 Chq: 116204048947",
+      "direction": "DEBIT",
+      "merchant_name": "ZOMATO LI",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 125.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116227134896/KAVIRAJ E/UTIB/**37124@OKBIZAXIS/UPI//HDFAB9AE6F550AA41ACB2524E6E133E664E/26/12/2025 19:51:56 Chq: 116227134896",
+      "direction": "DEBIT",
+      "merchant_name": "KAVIRAJ E",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 15.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116227718749/NARESH /YESB/**10193@YBL/UPI//HDFC5AE0CCEF06B41DFAA48585D1E9BFF46/26/12/2025 20:00:03 Chq: 116227718749",
+      "direction": "DEBIT",
+      "merchant_name": "NARESH",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 161.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/536086926191/SUBHASH L/BARB/**K8859@OKSBI/UPI//AXI6303E9C4B4C64913A353ACD2FF33014A/26/12/2025 20:56:33 Chq: 536086926191",
+      "direction": "DEBIT",
+      "merchant_name": "SUBHASH L",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 500.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/536037432212/MISS. KSH/MAHB/**NAKAT@OKSBI/UPI//AXI708A33AB97E04AF786AD44A1B92BC8F4/26/12/2025 21:06:00 Chq: 536037432212",
+      "direction": "DEBIT",
+      "merchant_name": "MISS. KSH",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 175.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116235281879/AKASH KIS/YESB/**9HIZW@PAYTM/UPI//HDF86EF85A26B864F7787508AB98F98BC96/26/12/2025 22:29:25 Chq: 116235281879",
+      "direction": "DEBIT",
+      "merchant_name": "AKASH KIS",
+      "transaction_date": "2025-12-26"
+    },
+    {
+      "amount": 600.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/536128677807/KANURIS/SBIN/**310-1@OKSBI/UPI//AXI9B139D71AF034F24AC0FCF462F471C3D/27/12/2025 14:02:21 Chq: 536128677807",
+      "direction": "DEBIT",
+      "merchant_name": "KANURIS",
+      "transaction_date": "2025-12-27"
+    },
+    {
+      "amount": 600.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/394063804257/KUMARI VA/SBIN/**22741@YBL/PAYMENT //YBLDC7AFB3979B04A4D916B2032E372B1D1/27/12/2025 14:13:19 Chq: 394063804257",
+      "direction": "CREDIT",
+      "merchant_name": "KUMARI VA",
+      "transaction_date": "2025-12-27"
+    },
+    {
+      "amount": 300.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/536164476411/KANURIS/SBIN/**310-1@OKSBI/UPI//AXI2135657D1EB047058363DF382645229A/27/12/2025 15:03:34 Chq: 536164476411",
+      "direction": "DEBIT",
+      "merchant_name": "KANURIS",
+      "transaction_date": "2025-12-27"
+    },
+    {
+      "amount": 10.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116258712489/GREENCHE/YESB/**91231@YBL/UPI//HDFCA8BBD323F1E47F4B259AF5984D454DF/27/12/2025 15:29:03 Chq: 116258712489",
+      "direction": "DEBIT",
+      "merchant_name": "GREENCHE",
+      "transaction_date": "2025-12-27"
+    },
+    {
+      "amount": 45.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116274797801/NARESH /YESB/**10193@YBL/UPI//HDF4B42D267D3FF4FFA8D5F585F0F4787CC/27/12/2025 19:54:13 Chq: 116274797801",
+      "direction": "DEBIT",
+      "merchant_name": "NARESH",
+      "transaction_date": "2025-12-27"
+    },
+    {
+      "amount": 135.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 0.8,
+      "description": "SBINT FOR THE PERIOD FROM28-SEP-25 TO 27-DEC-25 Chq:",
+      "direction": "CREDIT",
+      "merchant_name": "SBINT",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 60.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116305670757/LAZZITTI/YESB/**OJAF6@PTY/UPI//HDF A42519AC8E9F4CE5AAADDD3FD1F12FEF/28/12/2025 15:20:39 Chq: 116305670757",
+      "direction": "DEBIT",
+      "merchant_name": "LAZZITTI",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 36.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116317636227/SHREEMAN /YESB/**58266@YBL/UPI//HDF3F2407C1DEE74F1A8188DA45D5355027/28/12/2025 18:47:42 Chq: 116317636227",
+      "direction": "DEBIT",
+      "merchant_name": "SHREEMAN",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 25.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116319104616/MR LUNE /YESB/**17710@YBL/UPI//HDF3696EEE3652D4F698DDB6E73848E547E/28/12/2025 19:08:23 Chq: 116319104616",
+      "direction": "DEBIT",
+      "merchant_name": "MR LUNE",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 58.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116325810399/GROCERY VE/UTIB/**46256@OKBIZAXIS/UPI//HDF9CA973D4BDC14527A19FF55EB6AFEA19/28/12/2025 20:56:23 Chq: 116325810399",
+      "direction": "DEBIT",
+      "merchant_name": "GROCERY VE",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 49.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116325864416/GROCERY VE/UTIB/**28823@OKBIZAXIS/UPI//HDFFD8E456CD8804133847725D651DAB597/28/12/2025 20:57:26 Chq: 116325864416",
+      "direction": "DEBIT",
+      "merchant_name": "GROCERY VE",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 900.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/199114908556/SATYANARA/IBKL/**WDARY@YBL/PAYMENT //YBL8A858A0A95134B5F9C2EF977E1A7C821/28/12/2025 21:08:53 Chq: 199114908556",
+      "direction": "CREDIT",
+      "merchant_name": "SATYANARA",
+      "transaction_date": "2025-12-28"
+    },
+    {
+      "amount": 230.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/536393338340/MISS. KSH/MAHB/**NAKAT@OKSBI/UPI//AXIF396952ED1A54E6E9BFA883E299E33E3/29/12/2025 13:50:37 Chq: 536393338340",
+      "direction": "DEBIT",
+      "merchant_name": "MISS. KSH",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 30.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116354623031/VISHALDA/YESB/**78638@YBL/UPI//HDF50885CFFD13E4F2FA933E80BA613FAB2/29/12/2025 16:10:28 Chq: 116354623031",
+      "direction": "DEBIT",
+      "merchant_name": "VISHALDA",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 8.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116362755900/GREENCHE/YESB/**91231@YBL/UPI//HDFDC178791E88F4F6896267B261556BE4C/29/12/2025 18:24:34 Chq: 116362755900",
+      "direction": "DEBIT",
+      "merchant_name": "GREENCHE",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 20.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116363066917/MAHALAXMI/UTIB/**43982@OKBIZAXIS/UPI//HDFEF97C1BB618A458AB93A1C76933ECA7A/29/12/2025 18:28:50 Chq: 116363066917",
+      "direction": "DEBIT",
+      "merchant_name": "MAHALAXMI",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 15.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116363361752/RAMESH CH/YESB/**MYU9D@PTYS/UPI//HDF2705764EAC8D49A5A91F0 6E66E6333B2/29/12/2025 18:32:45 Chq: 116363361752",
+      "direction": "DEBIT",
+      "merchant_name": "RAMESH CH",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 99.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116365026669/PRADNY ESH/YESB/**Q2MT6@PTY/UPI// HDF5FDBB30A4BF347EC99F47 444F0782505/29/12/2025 18:54:53 Chq: 116365026669",
+      "direction": "DEBIT",
+      "merchant_name": "PRADNY ESH",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 60.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116366298670/SURTAL LI /YESB/**47953@YBL/UPI//HDF6 200640073714ACBBDEF8960AE 727B4F/29/12/2025 19:11:37 Chq: 116366298670",
+      "direction": "DEBIT",
+      "merchant_name": "SURTAL LI",
+      "transaction_date": "2025-12-29"
+    },
+    {
+      "amount": 30.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116384399150/SUDALAI M/YESB/**61554@YBL/UPI//HD F520465F31382493ABBE35F7F 8F2804A8/30/12/2025 09:38:16 Chq: 116384399150",
+      "direction": "DEBIT",
+      "merchant_name": "SUDALAI M",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 150.0,
+      "category": "FOOD",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116394521971/MORE DOSA/UTIB/**33084@OKBIZAXI S/UPI//HDF6D720F17D2254264 AA1977BE5F1394E6/30/12/2025 13:16:19 Chq: 116394521971",
+      "direction": "DEBIT",
+      "merchant_name": "MORE DOSA",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 24.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 0.8,
+      "description": "UPI/DR/116396026649/SMOKER S S/YESB/**HHLFV@PTYS/UPI//H DFFE07EA13181D4733BBFA72 6810FF8892/30/12/2025 13:43:59 Chq: 116396026649",
+      "direction": "DEBIT",
+      "merchant_name": "SMOKER S",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 84.0,
+      "category": "MEDICAL",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116404609383/NJ HOSPIT/YESB/**70409@YBL/U PI//HDF495B5E2D4E4244C98C4 D469605FB5B04/30/12/2025 16:37:43 Chq: 116404609383",
+      "direction": "DEBIT",
+      "merchant_name": "NJ HOSPIT",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 50.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116411874769/AJAY KUMA/YESB/**31054@YBL/UPI// HDF96AEB79B94FC4904B4743 7BC1DFE7CA7/30/12/2025 18:34:35 Chq: 116411874769",
+      "direction": "DEBIT",
+      "merchant_name": "AJAY KUMA",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 99.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/573039683122/NARESH KA/ICIC/**AR1- 1@OKICICI/UPI//AXI971CED776 88C4CAAB32E3F879230B013/3 0/12/2025 18:48:37 Chq: 573039683122",
+      "direction": "DEBIT",
+      "merchant_name": "NARESH KA",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 70.0,
+      "category": "SHOPPING",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116413481963/SRIKAR VEL/PPIW/**78255@AMAZONP AY/UPI//HDF6A60F36104734037 B35CCF0689070478/30/12/2025 18:56:30 Chq: 116413481963",
+      "direction": "DEBIT",
+      "merchant_name": "AMAZONPAY",
+      "transaction_date": "2025-12-30"
+    },
+    {
+      "amount": 50.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116429406444/SHRAVA NI /KARB/**62716@KBL/UPI//HDFA A806F70AF5540C9AE835A2F64 C7C1E6/31/12/2025 07:51:52 Chq: 116429406444",
+      "direction": "DEBIT",
+      "merchant_name": "SHRAVANI",
+      "transaction_date": "2025-12-31"
+    },
+    {
+      "amount": 80.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116429441772/GROCE RY VE/UTIB/**28823@OKBIZAXIS/ UPI//HDF477F408B00194719AD 2BBF2424D98713/31/12/2025 07:53:30 Chq: 116429441772",
+      "direction": "DEBIT",
+      "merchant_name": "GROCERY VE",
+      "transaction_date": "2025-12-31"
+    },
+    {
+      "amount": 927.0,
+      "category": "EMI",
+      "confidence_score": 1.0,
+      "description": "NEFT CR-000490873775-RATN0000999-MPOKKET FINANCIAL SERVICES PRIVATE--LOAN 1235902168 LOAN 1235902168-LOAN 1235902168 Chq: 0",
+      "direction": "CREDIT",
+      "merchant_name": "MPOKKET FINANCIAL SERVICES PRIVATE",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 500.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/600121515843/MR VELICH/NESF/**ARSHA@SLC/S R65DA88//NEF3F77B779078944 59A6C0991C7CCA501C/01/01/2 026 08:12:44 Chq: 600121515843",
+      "direction": "CREDIT",
+      "merchant_name": "MR VELICH",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 166.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116487802280/GROCE RY VE/UTIB/**28823@OKBIZAXIS/ UPI//HDFCDF5F22B67344C3BB 0F1DCD2BCA60740/01/01/2026 08:22:53 Chq: 116487802280",
+      "direction": "DEBIT",
+      "merchant_name": "GROCERY VE",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 168.0,
+      "category": "GROCERIES",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116488977521/BLINKIT/ HDFC/**T.RZP@HDFCBANK/PA YVIARA//HDF493F938DC4551 40BAFD410D13DD0975/01/01/2 026 09:02:46 Chq: 116488977521",
+      "direction": "DEBIT",
+      "merchant_name": "BLINKIT",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 60000.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 0.8,
+      "description": "NEFT CR-DEUTN26001866049- DEUT0784PBC-DATASMITH AI SOLUTIONS PVT LTD--//-//-// Chq: 0",
+      "direction": "CREDIT",
+      "merchant_name": "DATASMITH AI SOLUTIONS PVT LTD",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 23000.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/636774465202/SRIH899 1-/SBIN/**991- 1@OKAXIS/UPI//AXI8D0A46FC9 9BD43B7BE49D0FB434F49F2/0 1/01/2026 19:05:06 Chq: 636774465202",
+      "direction": "DEBIT",
+      "merchant_name": "SRIH8991",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 8000.0,
+      "category": "RENT",
+      "confidence_score": 1.0,
+      "description": "UPI/CR/656892430406/JALAGA M/SBIN/**98066@AXL/RENT FOR//AXL02276BC233FF48B2A 9F230333663AC90/01/01/2026 19:42:59 Chq: 656892430406",
+      "direction": "CREDIT",
+      "merchant_name": "JALAGAM",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 5500.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116531831775/ADITYA S/SBIN/**UCAN7@OKSBI/UPI// HDFE6D07AA46BBF4F04954D4 F7DE7D20BBD/01/01/2026 21:49:02 Chq: 116531831775",
+      "direction": "DEBIT",
+      "merchant_name": "ADITYA S",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 1399.0,
+      "category": "UNCATEGORIZED",
+      "confidence_score": 0.8,
+      "description": "UPI/DR/636705435796/DAILY YOG/UTIB/**2.RZP@AXISBANK/ PAYVIARA//CRD68D281040A9F 4804BA5A4F2B787AEC0A/01/01 /2026 22:41:47 Chq: 636705435796",
+      "direction": "DEBIT",
+      "merchant_name": "DAILY YOG",
+      "transaction_date": "2026-01-01"
+    },
+    {
+      "amount": 2500.0,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/636828591690/ADITYA S/SBIN/**UCAN7@OKSBI/UPI//AXIC7F555B6DD6544388798EEB CCF087BF3/02/01/2026 08:51:49 Chq: 636828591690",
+      "direction": "DEBIT",
+      "merchant_name": "ADITYA S",
+      "transaction_date": "2026-01-02"
+    },
+    {
+      "amount": 687.5,
+      "category": "TRANSFER",
+      "confidence_score": 1.0,
+      "description": "UPI/DR/116538930136/ADITYA S/SBIN/**UCAN7@OKSBI/UPI//HDFC1067FBF4A6F4C6483D7C E0DE340E605/02/01/2026 08:52:15 Chq: 116538930136",
+      "direction": "DEBIT",
+      "merchant_name": "ADITYA S",
+      "transaction_date": "2026-01-02"
+    },
+    {
+      "amount": 21890.0,
+      "category": "EMI",
+      "confidence_score": 1.0,
+      "description": "NACH PIRAMALCAPITALAND PLSA001EE977 CNRB7032209252014157 Chq:",
+      "direction": "DEBIT",
+      "merchant_name": "PIRAMALCAPITALAND",
+      "transaction_date": "2026-01-02"
+    }
+  ]
+}
