@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 # --- CONFIGURATION ---
 # Get key from https://aistudio.google.com/
 # Prefer environment variable for security
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBNuqZm7Pt7jFU2xbUR2CbqwZk5d-tvuYw")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "Addyourapikey")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Use Flash for speed/cost, Pro for complex reasoning
